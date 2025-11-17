@@ -1,4 +1,4 @@
-### 2️⃣ **DDesigner API Guide**
+### **DDesigner API Guide**
 
 PyTorch(`model.pth` / `model.pt`) 또는  
 TensorFlow(`model.h5` / `saved_model.pb`)로 학습된 모델을  
