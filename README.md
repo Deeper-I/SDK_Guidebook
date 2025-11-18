@@ -30,7 +30,7 @@ SDK Guidebook & Hardware Brochures (KR / EN / JP)
 | **Tachy Compiler** | ONNX → .tachyrt 변환 도구 | [열기](./SDK/KR/Tachy-Compile-System/[KR]TACHY-Compile-System.pdf) |
 | **Tachy Runtime** | .tachyrt 실행 런타임 | [열기](./SDK/KR/Tachy-runtime/[KR]TACHY-RunTime.pdf) |
 | **DDesigner API** | PyTorch·TensorFlow 모델을 분석·최적화하여 Tachy 하드웨어용 실행 파라미터 및 설정(config) 자동 생성 | [열기](./SDK/KR/DDesinger/[KR]DDesigner_API.pdf) |
-| **Deeper-I SDK Guidebook** | 통합 사용자 가이드 | [열기](./SDK/KR/SDK-GuideBook/[UserGuide] Deeper-I SDK.pdf) |
+| **Deeper-I SDK Guidebook** | 통합 사용자 가이드 | [열기](./SDK/KR/SDK-GuideBook/[UserGuide]%20Deeper-I@20SDK.pdf) |
 
 ---
 
@@ -41,7 +41,8 @@ SDK Guidebook & Hardware Brochures (KR / EN / JP)
 | **Tachy Compiler** | Convert ONNX → .tachyrt | [Open](./SDK/EN/Tachy-Compile-System/[EN]TACHY-Compile-System.pdf) |
 | **Tachy Runtime** | Execute .tachyrt on Tachy hardware | [Open](./SDK/EN/Tachy-runtime/[EN]TACHY-RunTime.pdf) |
 | **DDesigner API** | An API that analyzes & optimizes ML models and generates execution parameters/config for Tachy hardware | [Open](./SDK/EN/DDesinger/[EN]DDesigner_API.pdf) |
-| **Deeper-I SDK Guidebook** | Full SDK User Guide | [Open](./SDK/EN/SDK-GuideBook/[UserGuide_EN] Deeper-I SDK.pdf) |
+| **Deeper-I SDK Guidebook** | Full SDK User Guide | [Open](./SDK/EN/SDK-GuideBook/[UserGuide_EN]%20Deeper-I%20SDK.pdf)
+|
 
 ---
 
