@@ -1,60 +1,100 @@
+# 📘 Deeper-I Documentation Repository  
+SDK Guidebook & Hardware Brochures (KR / EN / JP)
 
 ---
 
-# 📘 **SDK Guidebook**
+## 📂 Repository Structure
 
-SDK 문서는 **한국어(KR)** / **영어(EN)** 로 제공되며  
-각 제품별 폴더에 `guide.pdf` 형태로 저장되어 있습니다.
+본 저장소는 Deeper-I의 **SDK 문서(SDK Guidebook)** 및  
+**하드웨어 제품 브로슈어(Brochures)** 를 언어별 · 제품별로 정리해 둔 저장소입니다.
 
----
+    SDK/
+    ├─ KR/
+    ├─ EN/
+    └─ JP/
 
-## 🇰🇷 **Korean SDK Documents (KR)**
+    Brochures/
+    ├─ KR/
+    ├─ EN/
+    └─ JP/
 
-| 제품명 | 설명 | 문서 |
-|-------|------|------|
-| **Tachy Compiler** | 모델을 ONNX → .tachyrt로 변환 | 👉 [열기](./SDK/KR/tachy-compiler/guide.pdf) |
-| **Tachy Runtime** | 하드웨어에서 .tachyrt 실행 | 👉 [열기](./SDK/KR/tachy-runtime/guide.pdf) |
-| **DDesigner API** | PyTorch/TensorFlow 모델 → 최적화 파라미터 변환 | 👉 [열기](./SDK/KR/ddesigner/guide.pdf) |
-| **Deeper-I SDK** | 전체 SDK 종합 안내서 | 👉 [열기](./SDK/KR/sdk/guide.pdf) |
-
----
-
-## 🇺🇸 **English SDK Documents (EN)**
-
-| Product | Description | Document |
-|---------|-------------|----------|
-| **Tachy Compiler** | Convert ONNX → .tachyrt | 👉 [Open](./SDK/EN/tachy-compiler/guide.pdf) |
-| **Tachy Runtime** | Execute .tachyrt on hardware | 👉 [Open](./SDK/EN/tachy-runtime/guide.pdf) |
-| **DDesigner API** | Convert ML models to optimized HW parameters | 👉 [Open](./SDK/EN/ddesigner/guide.pdf) |
-| **Deeper-I SDK** | Full SDK reference | 👉 [Open](./SDK/EN/sdk/guide.pdf) |
 
 ---
 
-# 📰 **Hardware Brochure**
+# 📘 SDK Documentation
 
-Brochure 문서 역시 **한국어(KR)** / **영어(EN)** 로 제공됩니다.
-
----
-
-## 🇰🇷 **Korean Brochure (KR)**
+## 🇰🇷 Korean (KR)
 
 | 제품명 | 설명 | 문서 |
 |--------|------|------|
-| **Tachy Shield** | 디퍼아이 하드웨어 쉴드 제품 소개 | 👉 [열기](./Brochure/KR/tachy-shield/guide.pdf) |
-| **Tachy M.2** | M.2 폼팩터 하드웨어 브로슈어 | 👉 [열기](./Brochure/KR/tachy-m2/guide.pdf) |
-| **Tachy SoDIMM** | SoDIMM 폼팩터 하드웨어 브로슈어 | 👉 [열기](./Brochure/KR/tachy-sodimm/guide.pdf) |
+| **Tachy Compiler** | ONNX → .tachyrt 변환 도구 | [열기](./SDK/KR/Tachy-Compile-System/[KR]TACHY-Compile-System.pdf) |
+| **Tachy Runtime** | .tachyrt 실행 런타임 | [열기](./SDK/KR/Tachy-runtime/[KR]TACHY-RunTime.pdf) |
+| **DDesigner API** | PyTorch·TensorFlow 모델을 분석·최적화하여 Tachy 하드웨어용 실행 파라미터 및 설정(config) 자동 생성 | [열기](./SDK/KR/DDesinger/[KR]DDesigner_API.pdf) |
+| **Deeper-I SDK Guidebook** | 통합 사용자 가이드 | [열기](./SDK/KR/SDK-GuideBook/[UserGuide] Deeper-I SDK.pdf) |
 
 ---
 
-## 🇺🇸 **English Brochure (EN)**
+## 🇺🇸 English (EN)
 
 | Product | Description | Document |
 |---------|-------------|----------|
-| **Tachy Shield** | Hardware shield product overview | 👉 [Open](./Brochure/EN/tachy-shield/guide.pdf) |
-| **Tachy M.2** | M.2 form-factor Brochure | 👉 [Open](./Brochure/EN/tachy-m2/guide.pdf) |
-| **Tachy SoDIMM** | SoDIMM product Brochure | 👉 [Open](./Brochure/EN/tachy-sodimm/guide.pdf) |
+| **Tachy Compiler** | Convert ONNX → .tachyrt | [Open](./SDK/EN/Tachy-Compile-System/[EN]TACHY-Compile-System.pdf) |
+| **Tachy Runtime** | Execute .tachyrt on Tachy hardware | [Open](./SDK/EN/Tachy-runtime/[EN]TACHY-RunTime.pdf) |
+| **DDesigner API** | An API that analyzes & optimizes ML models and generates execution parameters/config for Tachy hardware | [Open](./SDK/EN/DDesinger/[EN]DDesigner_API.pdf) |
+| **Deeper-I SDK Guidebook** | Full SDK User Guide | [Open](./SDK/EN/SDK-GuideBook/[UserGuide_EN] Deeper-I SDK.pdf) |
 
 ---
 
-# 📁 **Recommended Folder Structure**
+## 🇯🇵 Japanese (JP)
+
+| 製品名 | 説明 | 文書 |
+|--------|------|------|
+| **Deeper-I SDK Guidebook** | SDK 総合ユーザーガイド | [開く](./SDK/JP/SDK-GuideBook/[JP]Deeper-I%20SDK.pdf) |
+
+---
+
+# 📰 Hardware Brochures
+
+## 🇰🇷 Korean (KR)
+
+| 제품명 | 문서 |
+|--------|------|
+| **Tachy Shield** | [열기](./Brochures/KR/Tachy-Shield/[KR]Tachy-Shield_Brochure.pdf) |
+| **Tachy TAU M.2** | [열기](./Brochures/KR/Tachy-TAU-M.2/[KR]Tachy-TAU_M.2_Brochure.pdf) |
+| **Tachy TAU SoDIMM** | [열기](./Brochures/KR/Tachy-TAU-Sodimm/[KR]Tachy-TAU_Sodimm_Brochure.pdf) |
+
+---
+
+## 🇺🇸 English (EN)
+
+| Product | Document |
+|---------|----------|
+| **Tachy Shield** | [Open](./Brochures/EN/Tachy-Shield/[EN]Tachy-Shield_Brochure.pdf) |
+| **Tachy TAU M.2** | [Open](./Brochures/EN/Tachy-TAU-M.2/[EN]Tachy-TAU_M.2_Brochure.pdf) |
+| **Tachy TAU SoDIMM** | [Open](./Brochures/EN/Tachy-TAU-Sodimm/[EN]Tachy-TAU_Sodimm_Brochure.pdf) |
+
+---
+
+## 🇯🇵 Japanese (JP)
+
+| 製品名 | 文書 |
+|--------|------|
+| **Tachy Shield** | [開く](./Brochures/JP/Tachy-Shield/[JP]Tachy-Shield_Brochure.pdf) |
+| **Tachy TAU M.2** | [開く](./Brochures/JP/Tachy-TAU-M.2/[JP]Tachy-TAU_M.2_Brochure.pdf) |
+| **Tachy TAU SoDIMM** | [開く](./Brochures/JP/Tachy-TAU-Sodimm/[JP]Tachy-TAU_Sodimm_Brochure.pdf) |
+
+---
+
+# 🛠 Repository Rules
+
+- 문서는 `SDK/<LANG>/<Product>/` 구조로 관리됩니다.  
+- 브로슈어는 `Brochures/<LANG>/<Product>/` 구조로 관리됩니다.  
+- 파일명은 원본 그대로 유지합니다.  
+- 지원 언어 코드: **KR / EN / JP**
+
+---
+
+# 📞 Contact  
+문서 관련 문의는 **deeperi.partner@gmail.com**으로 연락해주세요.
+
 
