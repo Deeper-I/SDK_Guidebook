@@ -1,59 +1,60 @@
 
-- `KR/` : 한국어 문서
-- `EN/` : 영어 문서
-- 각 폴더 안에는 제품별 PDF **guide.pdf** 가 포함됩니다.
+---
+
+# 📘 **SDK Guidebook**
+
+SDK 문서는 **한국어(KR)** / **영어(EN)** 로 제공되며  
+각 제품별 폴더에 `guide.pdf` 형태로 저장되어 있습니다.
 
 ---
 
-# 🇰🇷 한국어 문서 (KR)
+## 🇰🇷 **Korean SDK Documents (KR)**
 
-## 1️⃣ Tachy Compiler
-➡️ ./KR/tachy-compiler/guide.pdf  
-👉 [열기](./KR/tachy-compiler/guide.pdf)
-
-## 2️⃣ Tachy Runtime
-➡️ ./KR/tachy-runtime/guide.pdf  
-👉 [열기](./KR/tachy-runtime/guide.pdf)
-
-## 3️⃣ DDesigner API  
-➡️ ./KR/ddesigner/guide.pdf  
-👉 [열기](./KR/ddesigner/guide.pdf)
-
-## 4️⃣ Deeper-I SDK  
-➡️ ./KR/sdk/guide.pdf  
-👉 [열기](./KR/sdk/guide.pdf)
+| 제품명 | 설명 | 문서 |
+|-------|------|------|
+| **Tachy Compiler** | 모델을 ONNX → .tachyrt로 변환 | 👉 [열기](./SDK/KR/tachy-compiler/guide.pdf) |
+| **Tachy Runtime** | 하드웨어에서 .tachyrt 실행 | 👉 [열기](./SDK/KR/tachy-runtime/guide.pdf) |
+| **DDesigner API** | PyTorch/TensorFlow 모델 → 최적화 파라미터 변환 | 👉 [열기](./SDK/KR/ddesigner/guide.pdf) |
+| **Deeper-I SDK** | 전체 SDK 종합 안내서 | 👉 [열기](./SDK/KR/sdk/guide.pdf) |
 
 ---
 
-# 🇺🇸 English Documents (EN)
+## 🇺🇸 **English SDK Documents (EN)**
 
-## 1️⃣ Tachy Compiler  
-➡️ ./EN/tachy-compiler/guide.pdf  
-👉 [Open](./EN/tachy-compiler/guide.pdf)
-
-## 2️⃣ Tachy Runtime  
-➡️ ./EN/tachy-runtime/guide.pdf  
-👉 [Open](./EN/tachy-runtime/guide.pdf)
-
-## 3️⃣ DDesigner API  
-➡️ ./EN/ddesigner/guide.pdf  
-👉 [Open](./EN/ddesigner/guide.pdf)
-
-## 4️⃣ Deeper-I SDK  
-➡️ ./EN/sdk/guide.pdf  
-👉 [Open](./EN/sdk/guide.pdf)
+| Product | Description | Document |
+|---------|-------------|----------|
+| **Tachy Compiler** | Convert ONNX → .tachyrt | 👉 [Open](./SDK/EN/tachy-compiler/guide.pdf) |
+| **Tachy Runtime** | Execute .tachyrt on hardware | 👉 [Open](./SDK/EN/tachy-runtime/guide.pdf) |
+| **DDesigner API** | Convert ML models to optimized HW parameters | 👉 [Open](./SDK/EN/ddesigner/guide.pdf) |
+| **Deeper-I SDK** | Full SDK reference | 👉 [Open](./SDK/EN/sdk/guide.pdf) |
 
 ---
 
-# 🗂 관리 방식 (권장)
+# 📰 **Hardware Brochure**
 
-- 문서를 언어(KR/EN), 제품별(tachy-compiler 등)로 분리
-- 각 제품 폴더에 항상 `guide.pdf` 라는 파일명으로 저장
-- 버전 관리가 필요하면 release를 통해 버전별 PDF 업로드
+Brochure 문서 역시 **한국어(KR)** / **영어(EN)** 로 제공됩니다.
 
 ---
 
-# ℹ️ 기타
+## 🇰🇷 **Korean Brochure (KR)**
 
-- 본 저장소는 디퍼아이 기술문서 배포용입니다.
-- 문의: deeper-i 담당자 연락처 또는 대표 메일
+| 제품명 | 설명 | 문서 |
+|--------|------|------|
+| **Tachy Shield** | 디퍼아이 하드웨어 쉴드 제품 소개 | 👉 [열기](./Brochure/KR/tachy-shield/guide.pdf) |
+| **Tachy M.2** | M.2 폼팩터 하드웨어 브로슈어 | 👉 [열기](./Brochure/KR/tachy-m2/guide.pdf) |
+| **Tachy SoDIMM** | SoDIMM 폼팩터 하드웨어 브로슈어 | 👉 [열기](./Brochure/KR/tachy-sodimm/guide.pdf) |
+
+---
+
+## 🇺🇸 **English Brochure (EN)**
+
+| Product | Description | Document |
+|---------|-------------|----------|
+| **Tachy Shield** | Hardware shield product overview | 👉 [Open](./Brochure/EN/tachy-shield/guide.pdf) |
+| **Tachy M.2** | M.2 form-factor Brochure | 👉 [Open](./Brochure/EN/tachy-m2/guide.pdf) |
+| **Tachy SoDIMM** | SoDIMM product Brochure | 👉 [Open](./Brochure/EN/tachy-sodimm/guide.pdf) |
+
+---
+
+# 📁 **Recommended Folder Structure**
+
